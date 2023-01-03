@@ -1,4 +1,4 @@
-
+<!--表单绑定 v-model-->
 <script setup lang="ts">
 import {ref} from 'vue';
 const text = ref('');
