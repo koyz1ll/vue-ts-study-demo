@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
 
-const p = ref(null)
+const p:any = ref(null)
 
 onMounted(()=>{
   p.value.textContent = 'mounted!'
