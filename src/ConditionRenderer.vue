@@ -19,7 +19,7 @@ function addTodo() {
   }
 }
 
-function removeTodo(todo) {
+function removeTodo(todo:any) {
   // ...
   todos.value = todos.value.filter((value, index, self)=>{
     return todo != value;
